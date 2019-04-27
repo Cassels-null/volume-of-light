@@ -33,6 +33,11 @@ body{
     margin-top: 30px;
 }
 
+.infoLine{
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
 #earth{
     /* max-width: 100px; */
     max-width: 20%;
