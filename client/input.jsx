@@ -25,17 +25,20 @@ class Input extends React.Component{
         )
     }
 
-    sendInfo(e){
-        // e.preventDefault();
-        this.props.updateData(document.getElementById("yearsInput").value);
+    sendInfo(){
+        
+        setTimeout(()=>{this.props.updateData(document.getElementById("yearsInput").value);},
+        200);
+
         document.getElementById("earth").classList.add("setpulse");
         setTimeout(()=>{
             document.getElementById("earth").classList.add("pulse");
         }, 200);
+
         setTimeout(()=>{
             document.getElementById("earth").classList.remove("setpulse");
             document.getElementById("earth").classList.remove("pulse");
-        }, 2400)
+        }, 1600)
     }
 }
 
