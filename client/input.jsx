@@ -17,7 +17,7 @@ class Input extends React.Component{
                 </form> */}
 
 
-                <div className="center">how old are you?</div>
+                <div className="center">How old are you?</div>
                 Age:
                 <input id="yearsInput" type="number" name="quantity" min="1"></input>
                 <button onClick={()=>{this.sendInfo()}}>calculate my light-volume</button>
