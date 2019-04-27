@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(9, 9, 53);
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    border: 1px;
+    /* border-style: solid; */
+    max-width: 1000px;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:1000px;
+    height:30px;   /* Height of the footer */
+    /* background:#6cf; */
+    font-size: 50%;
+    justify-content: center;
+}
+
+#whatIs{
+    margin-top: 30px;
+}
+
+#earth{
+    /* max-width: 100px; */
+    max-width: 20%;
+    margin: 30px;
+    border-style: solid;
+    border-color: rgb(9, 9, 53);
+    border-radius: 100%;
+}
+
+#earth:hover{
+    /* max-width: 100px; */
+    box-shadow:  0px 0px 100px 80% rgb(9, 9, 53), 0px 0px 0px 80% rgb(86, 159, 241);
+}
+
+#earth.setpulse{
+    -webkit-transition-duration: 2s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95)
+}
+
+#earth.pulse{
+    /* max-width: 100px; */
+    box-shadow: 0px 0px 0px 1400px rgb(9, 9, 53), 0px 0px 5px 1400px rgb(86, 159, 241), 0px 0px 5px 400px rgb(9, 9, 53);
+}
+
+.subtleLink{
+    color: white;
+    text-decoration: none;
+}
+
+#showMath{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* margin: auto; */
+}
+
+#input{
+    /* margin: auto; */
+    z-index: 88;
+    /* position: relative; */
+}
+
