@@ -11,9 +11,9 @@ class WhatIs extends React.Component{
 
     render(){
         let explanation = [
-            'The fastest particles and information can move is the speed of light, so if you want to send a message to a planet 50 light-years away, it will take 50 years.',
-            'The question I asked is "how big is the space I could possibly have affected since my birth?"',
-            'The math isn\'t to hard: it\'s the volume of a sphere with a radius of one light-year per year you have been alive',
+            'The fastest information can travel is the speed of light.',
+            'The question I asked is: "how large is the volume of space that information about me has reached since my birth?"',
+            'The math isn\'t to hard: it\'s the volume of a sphere with a radius of one light-year per year you have been alive.',
             'This is a little calculation I like to run on my birthday.',
             'For my 22 birthday, I took a few hours to build out this app.'
         ];
